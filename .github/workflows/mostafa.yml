@@ -1,0 +1,11 @@
+name: lab3
+on : push 
+jobs:
+  j1:
+    runs-on: ubuntu-latest
+    steps:
+    -  name: step_1
+    -  run: echo "hi"
+    -  name: stp_2
+    -  run: echo "world"
+      
